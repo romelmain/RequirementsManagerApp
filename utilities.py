@@ -86,6 +86,8 @@ def prueba(company_path, require_name):
     try:
         shutil.copy('./template/credenciales.txt',
                     destination_path + '\\' + documents + '\\' + 'credenciales.txt')
+        shutil.copy('./template/credenciales.txt',
+                    destination_path + '\\' + documents + '\\' + 'template_hoja_de_vida_api.md')
         shutil.copy('./template/Cronograma.xlsx',
                     destination_path + '\\' + documents + '\\' + 'Cronograma.xlsx')
         shutil.copy('./template/Estimacion.txt',
