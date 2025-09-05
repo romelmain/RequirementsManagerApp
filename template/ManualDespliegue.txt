@@ -1,0 +1,20 @@
+1 Mulesoft
+• Api Names
+
+
+
+1.0 Actividades de pre-despliegue
+1.1 Actividades de despliegue
+	
+1.3 Apuntamientos
+	Asegurar apuntamiento de producción con equipo de soporte.
+1.4 Marcha atrás
+	• Api name
+	-- Explicacion
+	
+despliegue de la iniciativa master.
+	• Api name
+	-- Explicacion
+despliegue de la iniciativa master.
+	• Api name
+	-- explicacion.

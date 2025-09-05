@@ -1,2 +1,7 @@
 path:
   mainPath: 'C:\Users\Romel\Documents'
+  documents: '\documentacion'
+  repository: '\repos'
+  workspace: "WK"
+  tmforum: "TMF"
+  release: "entrega"

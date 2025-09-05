@@ -16,5 +16,8 @@ val = ut.validate_path(companypath)
 if val:
     print(f"la compañia {companyName} existe")
     requirementName = input("Ingrese el nombre del requerimiento: ")
+    ut.create_requirement(companypath, requirementName)
+    ut.create_other_dir(companypath, requirementName)
+    ut.prueba(companypath, requirementName)
 else:
     print(f"la compañia {companyName} no existe")
