@@ -92,6 +92,8 @@ def prueba(company_path, require_name):
                     destination_path + '\\' + documents + '\\' + 'Cronograma.xlsx')
         shutil.copy('./template/Estimacion.txt',
                     destination_path + '\\' + documents + '\\' + 'Estimacion.txt')
+        shutil.copy('./template/Estimacion.txt',
+                    destination_path + '\\' + documents + '\\' + 'Estimacion.xlsx')
         shutil.copy('./template/ManualDespliegue.txt',
                     destination_path + '\\' + release + '\\' + 'ManualDespliegue.txt')
         shutil.copy('./template/DISEÑO DE CASOS DE PRUEBA.xlsx',
