@@ -66,17 +66,7 @@ def create_other_dir(company_path, require_name):
         print(f"Error al crear la carpeta: {error} ❌")
 
 
-def add_templates(ori_path, destination_path):
-    """Copy Templates"""
-    try:
-        shutil.copy(ori_path, destination_path)
-    except FileNotFoundError:
-        print("❌ Error: El archivo de origen o el directorio de destino no se encontró.")
-    except Exception as e:
-        print(f"❌ Ocurrió un error: {e}")
-
-
-def prueba(company_path, require_name):
+def add_templates(company_path, require_name):
     """Prueba"""
     destination_path = company_path + '\\' + require_name
     dic = read_config()

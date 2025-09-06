@@ -18,6 +18,6 @@ if val:
     requirementName = input("Ingrese el nombre del requerimiento: ")
     ut.create_requirement(companypath, requirementName)
     ut.create_other_dir(companypath, requirementName)
-    ut.prueba(companypath, requirementName)
+    ut.add_templates(companypath, requirementName)
 else:
     print(f"la compañia {companyName} no existe")
